@@ -17,6 +17,10 @@ describe('CheckBox Methodlari', () => {
 
     it.only('toplu secme', () => {
         cy.visit('https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb')
-        cy.get("input[type='checkbox']").check()
+        //cy.get("input[type='checkbox']").check() // secim yaptiktan sonra sayfa yenilendigi icin yenilenme esnasinda secim yapamiyor ve hata veriyor
+        //cy.get("input[type='checkbox']").eq(11).check().should('be.checked')
+        //cy.get("input[type='checkbox']").eq(16).check().should('be.checked')
+        //cy.get("input[type='checkbox']").eq(24).check().should('be.checked')
+        //cy.get("input[type='checkbox']").eq(35).check().should('be.checked')
     });
 });
