@@ -24,3 +24,6 @@ require('cypress-iframe');
 
 require('cypress-xpath');
 // https://www.npmjs.com/package/cypress-xpath
+
+import 'cypress-file-upload';
+// https://www.npmjs.com/package/cypress-file-upload
