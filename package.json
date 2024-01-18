@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dashboard_MyCypress" : "npx cypress run --spec 'cypress/e2e/0-MyCypress' --record --key a156d862-72a1-4037-b199-e24dd0cb4205 --browser chrome"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
     "@testing-library/cypress": "^10.0.1",
     "cypress": "^13.6.2",
     "cypress-file-upload": "^5.0.8",

@@ -27,3 +27,6 @@ require('cypress-xpath');
 
 import 'cypress-file-upload';
 // https://www.npmjs.com/package/cypress-file-upload
+
+import { faker } from '@faker-js/faker';
+// https://www.npmjs.com/package/@faker-js/faker

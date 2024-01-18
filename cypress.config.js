@@ -6,7 +6,10 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
 
-    baseUrl:'http://www.google.com'
+    baseUrl:'http://www.google.com',
+    projectId: "zxdnib",
+    "video":false, // video kaydi alinmasini engeller
+    "retire":2 // fail olan testleri 2 kere daha calistirir
 
   },
 });
