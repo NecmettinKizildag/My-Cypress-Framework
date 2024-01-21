@@ -5,9 +5,11 @@ describe('POM ile Login', () => {
         const homePage = new HomePage()
         const loginPage = new LoginPage()
 
-        cy.visit('https://qa.loantechexper.com/');
-
+        homePage.getVisit()
         homePage.getLoginButton().click()
-        loginPage.getNameTextBox().type()
+        loginPage.getNameTextBox().type('necmettin')
+        loginPage.getPasswordTextBox().type('Loan.741')
+        loginPage.getLoginButton().click()
+
     });
 });
